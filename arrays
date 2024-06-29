@@ -1,0 +1,14 @@
+<?php 
+$numbers = array(4,5,6,8,0,1) ; 
+echo "$numbers[4] " ."\n";
+
+$mixed = array(6,"fox", "giraffe","tomato", array("x", "y", "z"));
+echo $mixed[3]."\n"; 
+echo $mixed[3][1]."\n";
+
+$mixed[2]="cat" ; 
+echo $mixed[2] ;
+
+echo print_r($mixed) ;
+
+?>

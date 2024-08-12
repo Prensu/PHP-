@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Accessing form parameters with post method
+    </head>
+    <body>
+        <form method="post" action="process.php">
+            Name:<input type="text" name="name">
+            Email:<input type="email" name="email">
+            <button>Submit</button>
+        </form>
+        </body>
+        </html>
+<?php
+echo "The name and emails are:";
+echo "Name:" .$post('name');
+echo "email:".$post('email');
+?>
